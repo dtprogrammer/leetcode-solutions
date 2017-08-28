@@ -1,4 +1,4 @@
-package dtprogrammer.github.io.other;
+package dtprogrammer.github.io.other.dynamicprogramming;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,14 +1,16 @@
-package dtprogrammer.github.io.other;
+package dtprogrammer.github.io.other.dynamicprogramming;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * Rod Cutting Problem
- * Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
+ * Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n.
+ * Determine the maximum value obtainable by cutting up the rod and selling the pieces.
  * <p>
  * Input:
- * First line consists of T test cases. First line of every test case consists of N, denoting the size of array. Second line of every test case consists of price of ith length piece.
+ * First line consists of T test cases. First line of every test case consists of N, denoting the size of array.
+ * Second line of every test case consists of price of ith length piece.
  * <p>
  * Output:
  * Single line output consists of maximum price obtained.
@@ -27,7 +29,7 @@ import java.util.Scanner;
  * 22
  * Problem: http://practice.geeksforgeeks.org/problems/rod-cutting/0
  * The brute force approach has exponential time complexity in which we generate all the possibilities
- * of cutting which is 2 pow (n - 1) hence has exponential time complexity. We can reduce this by dynamic prorgramming.
+ * of cutting which is 2 pow (n - 1) hence has exponential time complexity. We can reduce this by dynamic programming.
  * Time complexity:
  */
 public class RodCutting {
