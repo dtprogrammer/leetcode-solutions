@@ -18,8 +18,9 @@ import java.util.Comparator;
  * Interval(int s, int e) : start(s), end(e) {}
  * };
  * <p>
- * Time complexity: O (n log n) to sort the array. After that O(n) to process. We can optimize the time by trading it
- * off with space. We can use a priority queue to store the events by the finish time.
+ * Time complexity: O (n log n) to sort the array. After that O(n) to process. We can try to optimize the time by
+ * trading it off with space. We can use a priority queue to store the events by the finish time. Although the
+ * insertion in priority queue has O (log n) complexity making the complexity O (n log n) overall.
  */
 public class Solution {
     public boolean canAttendMeetings(Interval[] intervals) {
