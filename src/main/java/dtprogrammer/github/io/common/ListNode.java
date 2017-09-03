@@ -16,4 +16,28 @@ public class ListNode {
         }
         System.out.println();
     }
+
+    public static ListNode createList(int... values) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode curNode = dummyHead;
+        for (int value : values) {
+            curNode.next = new ListNode(value);
+            curNode = curNode.next;
+        }
+        return dummyHead.next;
+    }
+
+    public static boolean isEqual(ListNode expected, ListNode actual) {
+        while (expected != null && actual != null) {
+            if (expected.val != actual.val) {
+                return false;
+            }
+            expected = expected.next;
+            actual = actual.next;
+        }
+        if (expected != null || actual != null) {
+            return false;
+        }
+        return true;
+    }
 }
