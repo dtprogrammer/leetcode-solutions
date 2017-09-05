@@ -24,6 +24,7 @@ public class ListNode {
             curNode.next = new ListNode(value);
             curNode = curNode.next;
         }
+        curNode.next = null;
         return dummyHead.next;
     }
 
