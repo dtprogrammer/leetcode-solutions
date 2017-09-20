@@ -1,5 +1,9 @@
 package dtprogrammer.github.io.p52;
 
+/**
+ * 52. N-Queens II
+ * http://dtprogrammer.github.io/52-n-queens-ii/
+ */
 public class Solution {
     public int totalNQueens(int n) {
         int[] solutions = {0}; // number of solutions. stored in array to retain value across recursive calls
