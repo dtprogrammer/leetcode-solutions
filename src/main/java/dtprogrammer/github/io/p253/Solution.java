@@ -7,9 +7,8 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] find the
- * minimum number of conference rooms required.
- * Time complexity: O (n log n)
+ * 253. Meeting Rooms II
+ * http://dtprogrammer.github.io/253-meeting-rooms-ii/
  */
 public class Solution {
     public int minMeetingRooms(Interval[] intervals) {
