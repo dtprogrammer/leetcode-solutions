@@ -2,7 +2,7 @@ package dtprogrammer.github.io.p238;
 
 /**
  * 238. Product of Array Except Self
- * http://localhost:2368/238-product-of-array-except-self/
+ * http://dtprogrammer.github.io/238-product-of-array-except-self/
  */
 public class Solution {
     public int[] productExceptSelf(int[] nums) {
