@@ -46,7 +46,7 @@ public class Solution {
                     right[j] = Math.min(right[j], curRight);
                 } else {
                     right[j] = cols;
-                    curRight = j - 1;
+                    curRight = j;
                 }
             }
 

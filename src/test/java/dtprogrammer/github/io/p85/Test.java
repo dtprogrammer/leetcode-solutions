@@ -9,5 +9,8 @@ public class Test {
         char[][] matrix = {{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'},
                 {'1', '0', '0', '1', '0'}};
         Assert.assertEquals(6, solution.maximalRectangle(matrix));
+
+        char[][] matrix2 = {{'1', '0'}};
+        Assert.assertEquals(1, solution.maximalRectangle(matrix2));
     }
 }
