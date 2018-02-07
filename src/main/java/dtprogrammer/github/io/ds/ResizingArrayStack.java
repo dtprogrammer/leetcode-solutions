@@ -83,7 +83,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
 
         @Override
         public boolean hasNext() {
-            return current > 0;
+            return current >= 0;
         }
 
         @Override
@@ -115,5 +115,9 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         stack.pop();
         stack.pop();
         System.out.println("Stack Size is: " + stack.size());
+
+        for (Integer integer : stack) {
+            System.out.println(integer);
+        }
     }
 }
