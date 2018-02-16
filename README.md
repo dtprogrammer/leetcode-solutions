@@ -1,5 +1,7 @@
 # LeetCode Solutions
-Solutions to  LeetCode problems in Java. 
+Solutions to  LeetCode problems in Java.
+
+[Notes](src/docs/main.md) 
 
 **Note:** The packages names in this repository have numbers in their names
 which is not a correct naming convention according to Java standards and I
