@@ -28,3 +28,8 @@ set the id of each examined node to point to that root.
 *Complexity:* N * M log (star) N
 
 *log star:* is the number of times the logarithm function must be iteratively applied before the result is less than or equal to 1.
+
+Quick Union can be used to find number of connected components in a graph.
+
+### Quick Union with Rank and Path Compression
+Runtime: m theta n where theta is inverse Ackermann function and is less than 5 for any conceivable value of N that arises in practice.
