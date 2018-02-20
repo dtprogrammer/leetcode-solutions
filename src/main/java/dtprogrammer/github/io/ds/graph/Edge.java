@@ -32,4 +32,16 @@ public class Edge implements Comparable<Edge> {
     public int compareTo(Edge o) {
         return Double.compare(this.weight, o.weight);
     }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(v);
+        builder.append("-");
+        builder.append(w);
+        builder.append(" (");
+        builder.append(weight);
+        builder.append(")");
+        return builder.toString();
+    }
 }
