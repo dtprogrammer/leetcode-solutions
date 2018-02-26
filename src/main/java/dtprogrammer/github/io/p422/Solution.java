@@ -2,6 +2,9 @@ package dtprogrammer.github.io.p422;
 
 import java.util.List;
 
+/**
+ * 422. Valid Word Square
+ */
 public class Solution {
     public boolean validWordSquare(List<String> words) {
         if (words == null || words.size() == 0) {
