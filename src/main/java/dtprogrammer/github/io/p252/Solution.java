@@ -38,7 +38,7 @@ public class Solution {
         });
 
         // the person cannot make to all the meeting if the current meeting finishes after the next meeting start time
-        for (int i = 0; i < intervals.length - 2; i++) {
+        for (int i = 0; i < intervals.length - 1; i++) {
             if (intervals[i].end > intervals[i + 1].start) {
                 return false;
             }
